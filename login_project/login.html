@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> <!-- Header -->
+<head>
+  <!--ustawienie zestawu znakow-->
   <meta charset="UTF-8">
-  <title>Login</title>
+  <title>Zadanie2</title>
+  <!--przypisanie stylu strony-->
   <link rel="stylesheet" type="text/css" href="login.css">
 </head>
 
 <body>
   
   <main id="main-holder">
+    <!--pokazane naglowka-->
     <h1 id="login-header">Login</h1>
 
     <form id="login-form">
-      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username"> <!--Pole do wpisania loginu-->
-      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password"> <!--Pole do wpisania hasla-->
-      <button type="submit" value="Login" id="login-form-submit">Login</button> <!--Przycisk odpowiadajacy za przeslanie loginu i hasla do sprawdzenia-->
+      <!--umieszczenie pola nazwy uzytkownika-->
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username"> 
+      <!--umieszczenie pola hasla uzytkownika-->
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <!--umieszczenie przycisku "Login"-->
+      <button type="submit" value="Login" id="login-form-submit">Login</button> 
     </form>
+    <!--polaczenie ze skryptem-->
     <script src="./login.js"></script>
   </main>
 </body>
